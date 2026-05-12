@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: 'Public Sans', 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb, #a18cd1);
+    background-size: 400% 400%;
+    animation: gradient 12s ease infinite;
+    color: #222;
+}
+
+@keyframes gradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+header {
+    background: rgba(0,0,0,0.6);
+    font-family: DSans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+}
+
+.logo span {
+    color: #ffe066;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    color: #fff;
+}
+
+.hero span {
+    color: #ffe066;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #ffe066;
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+    background: rgba(255,255,255,0.7);
+    border-radius: 12px;
+    margin-top: 40px;
+}
+
+.project-card {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.project-card.sweet {
+    background: #ff6f91;
+}
+
+.project-card.quick {
+    background: #ff9671;
+}
+
+.skills-list {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.skills-list li {
+    background: #ffe066;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+}
